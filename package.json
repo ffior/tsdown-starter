@@ -1,0 +1,35 @@
+{
+    "name": "tsdown-utils",
+    "type": "module",
+    "version": "0.0.1",
+    "description": "A starter for creating a TypeScript package.",
+    "author": "Author Name <author.name@mail.com>",
+    "license": "MIT",
+    "homepage": "https://github.com/author/library#readme",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/author/library.git"
+    },
+    "bugs": {
+        "url": "https://github.com/author/library/issues"
+    },
+    "exports": {
+        ".": "./dist/index.mjs",
+        "./package.json": "./package.json"
+    },
+    "files": [
+        "dist"
+    ],
+    "scripts": {
+        "build": "tsdown",
+        "dev": "tsdown --watch"
+    },
+    "dependencies": {},
+    "peerDependencies": {},
+    "devDependencies": {
+        "@types/node": "^26.1.1",
+        "tsdown": "^0.21.10",
+        "typescript": "^6.0.3",
+        "yuku-parser": "0.5.48"
+    }
+}
